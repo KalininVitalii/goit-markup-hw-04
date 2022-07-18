@@ -351,14 +351,11 @@ footer {
   }
 
 .portfolio-all:hover,
-.portfolio-all:focus{
+button .portfolio-all:focus{
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
     cursor: pointer;
-  }
-
-  .portfolio-all:active {
-      color: var(--accent-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
   .web-link{
@@ -371,10 +368,11 @@ footer {
 }
 
 .web-link:hover,
-.web-link:focus {
+button .web-link:focus {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-app {
@@ -387,10 +385,11 @@ footer {
 }
 
 .portfolio-app:hover,
-.portfolio-app:focus {
+button .portfolio-app:focus {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-design {
@@ -403,10 +402,11 @@ footer {
 }
 
 .portfolio-design:hover,
-.portfolio-design:focus {
+button .portfolio-design:focus {
     background-color: var(--accent-text-color);
     color: var(--white-text-color);
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-mark {
@@ -419,10 +419,11 @@ footer {
 }
 
 .portfolio-mark:hover,
-.portfolio-mark:focus {
+button .portfolio-mark:focus {
     color: var(--white-text-color);
     background-color: var(--accent-text-color);
     cursor: pointer;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .hero-order {
